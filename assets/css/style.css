@@ -188,6 +188,8 @@ p {
     header {position: static;}
     main {width: 520px; margin: auto;}
     Header {width: 100%; text-align: center;}
-    .headerBackground {background: #4aaaa5;}
-    .right-nav {width: 640px; text-align: center; margin: 0;}
+    .headerBackground {background: #4aaaa5; width: 100%; text-align: 0 auto;}
+    .right-nav {width: 100%; text-align: center; margin: 0 auto;}
+    .headerContent {width: 100%;}
+    html, body {padding: 0; margin: 0;}
 }
