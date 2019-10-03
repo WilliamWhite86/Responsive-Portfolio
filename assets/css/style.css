@@ -1,0 +1,193 @@
+.clearfix::after {
+    content: " ";
+    display: block;
+    clear: both;
+    margin: 0;
+  }
+
+body {
+    margin:0px 0px 100px 0px;
+    clear: both;
+    background-image: url("../images/green_gobbler/green_gobbler_@2X.png");
+}
+
+.headerBackground {
+    background: #ffffff;
+}
+.headerContent {
+    width: 960px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-bottom-color: #cccccc
+}
+header {
+    float: left;
+    background: #4aaaa5;
+    width: 200px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: #ffffff;
+    padding: 15px;
+    margin: 0;
+    text-align: center;
+    font-size: 1.75em;
+}
+
+.right-nav {
+    float: left;
+    margin-left: 535px;
+    padding: 25px 0px 10px 10px;
+    margin-bottom: 0;
+}
+
+main {
+    width: 960px;
+    margin: 0 auto 30px auto;
+    background-color: #ffffff;
+    border-color: #dddddd;
+}
+
+.picture {
+    float:left;
+    padding: 15px 10px 0px 10px;
+    height: 200px;
+    width: 200px;
+}
+
+hr {
+    margin: 0 auto;
+    width: 930px;
+    border-color: #dddddd;
+}
+
+h1 {
+    padding: 15px 15px 5px 15px;
+    border: 0;
+    margin-bottom: 0;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: #4aaaa5;
+}
+
+.pcontent {
+    color: #777777;
+    padding: 5px;
+    margin: 0px 10px 10px 0px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.firstPara {
+    margin-top: 2.5px;
+}
+
+a:link {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #4aaaa5;
+}
+
+footer {
+    background-color: #666666;
+    height: 70px;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    color: #cccccc;
+    border-top: 5px solid #4aaaa5;
+    position: fixed;
+}
+
+.footerContent {
+    padding-top: 30px;
+    font-size: .75em;
+    color: #dddddd;
+}
+
+#cityplaceholder{
+    height: 150px;
+}
+
+.appLink {
+    position: relative;
+    float: left;
+    margin: 15px 5px 15px 25px;
+}
+
+.appLink p:hover {
+    background: #4aaaa5;
+}
+
+.appLink p {
+    position: absolute;
+    text-align: center;
+    background: rgba(74,170,165,.80);
+    color: #ffffff;
+    width: 100%;
+    bottom: 15%;
+    font-size: 2em;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin: 0;
+}
+
+input[type=text] {
+    width: 900px;
+}
+
+.contact input{
+    width: 400px;
+}
+
+input[type=submit] {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    margin-top: 10px;
+    font-size: 1em;
+}
+
+input[type=submit]:hover{
+    background: #4aaaa5;
+    color: #dddddd;
+}
+
+#inputMessage {
+    height: 100px;
+}
+
+form {
+    padding: 15px;
+}
+
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+
+@media screen and (max-width: 980px){
+    main {width: 480px;}
+    .headerContent {width: 480px;}
+    .right-nav {margin-left: 55px;}
+    hr {width: 450px;}
+}
+
+@media screen and (max-width: 768px){
+    main {width: 720px;}
+    .headerContent {width: 720px;}
+    .right-nav {margin-left: 295px;}
+
+}
+
+@media screen and (max-width: 640px){
+    header {position: static;}
+    main {width: 520px; margin: auto;}
+    Header {width: 100%; text-align: center;}
+    .headerBackground {background: #4aaaa5;}
+    .right-nav {width: 640px; text-align: center; margin: 0;}
+}
