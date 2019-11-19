@@ -175,6 +175,32 @@ a.textLink {
     color: #4aaaa5;
 }
 
+.appWidth {
+    width: 200px;
+    float: left;
+    margin-top: 0px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+
+.gitlink{
+    margin: 0px;
+}
+
+img{
+    border-width: 2px;
+    border-style: outset;
+    border-color: black;
+}
+
+.contacts {
+    width: 200px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+
 @media screen and (max-width: 980px){
     main {width: 480px;}
     .headerContent {width: 480px;}
